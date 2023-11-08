@@ -1,0 +1,81 @@
+for i in range(int(input())):
+    l=list(map(int,input().split()))
+    l.sort()
+    print(l[1])
+    
+    
+    
+    
+    
+    
+# cook your dish here
+for i in range(int(input())):
+        a,b,c=map(int,input().split())
+        k=[]
+        k.append(a)
+        k.append(b)
+        k.append(c)
+        k.sort()
+        print(k[1])
+        
+        
+        
+# cook your dish here
+for i in range(int(input())):
+    a = list(map(int, input().split()))
+    
+    a.remove(max(a))
+    
+    print(max(a))
+    
+    
+    
+    
+    
+    
+    
+    
+    
+# cook your dish here
+for i in range(int(input())):
+    x,y,z=map(int,input().split())
+    if(x<y and x>z or x>y and x<z):
+        print(x)
+    elif(y<x and y>z or y>x and y<z):
+        print(y)
+    else:
+        print(z)
+        
+        
+        
+        
+        
+        
+        
+# cook your dish here
+t=int(input())
+for i in range(t):
+    a,b,c=map(int,input().split())
+    if a>b:
+        if a>c:
+            if b>c:
+                print(b)
+            else:
+                print(c)
+        else:
+            print(a)
+            
+                
+       
+           
+    else:
+        if b>c:
+            if a>c:
+                print(a)
+            else:
+                print(c)
+        else:
+            
+            print(b)
+            
+            
