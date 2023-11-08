@@ -1,0 +1,40 @@
+problem statement 
+there is  a group  of nN friends  who wish to enroll in a  course together . the course has a maximum capacity of M students that can register for it. if there are K other students  who have  already enrolled in the course , determine  if it 
+still be possible  for all the  N fruends  to do so or not .
+
+
+
+input format 
+1. the first line contains  a single  integer T - the number of test cases  . then the test cases  follow.
+2. each  test cse consisits of a single line containing three integers N, M amd K - the size of the friend 
+group , the cpacity of the coursr and the number of students already registered for the course .
+
+
+output format 
+for may print each charecter of tes and in uppercase or lowercase (for example yes )
+
+costraints :
+1≤T≤1000
+1≤N≤M≤100
+0≤K≤M
+
+
+input 
+3
+2 50 27
+5 40 38
+100 100 0
+
+
+output
+Yes
+No
+Yes
+
+explanation 
+test case 1 ; the 2 friends can enroll  in the course seats to accomodate them and the 27 
+other students  at the same time . 
+
+
+test case 2 : the course does not  have enough  seats to accomodate the 5 friends and the 38
+others  students at the same time .

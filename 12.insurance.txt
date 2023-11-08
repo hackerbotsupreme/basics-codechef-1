@@ -1,0 +1,49 @@
+problem statement 
+chef bought car insurance  . thge policy of the insurance is :
+1. the maximum realatable  amount for any damage is rs X lakhs .
+2. if the amount required for repairing the damage is <=x lakhs , that amount is rebated in full.
+
+chef's  car meets an accident and required rs y lakhs for repairing .
+ determine the amount that will be rebated by the insurance company.
+
+ input format 
+
+ 1. the first line of input will contain a single integer T , denoting the number of test cases .
+ 2. the first and only line of each test case contains two space-seperated integers  X and Y.
+
+
+ output format 
+ for each test case , outp[ut  the amount (in kakhs ) that will be rebated the insurance company .
+ 
+ 
+constraints 
+1≤T≤1000
+1≤X,Y≤30
+
+input 
+4
+5 3
+5 8
+4 4
+15 12
+
+output
+3
+5
+4
+12
+
+
+Explanation :
+test case 1. the damages require only 3 lakh which below the upper  cap, so the entire rs 3 lakh will be rebated .
+
+test case 2:
+the damages require rs 8 lakh which is above the upper cap, rs  5 lakh will be rebated .
+
+test case 3. the damages require only rs 4 lakh which is equal  to the upper cap , so the whole rs 4 lakh wil  be rebated .
+
+
+test case 4
+the damages require rs  15 lakh which above the upper cap , so only rs  12 lakh will be rebated.
+
+

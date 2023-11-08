@@ -1,0 +1,42 @@
+problem statement 
+a study has shown that a musical instrument helps in inceasing iq by 7 poinnts .
+chef knows he cant beat einstein in physics ,but he wants  to try to beat him in an iq competitioon .
+
+you know that einstein that einstein had an iq of 170 and chef has an iq of X.
+determine if , after laearnuing to play a musical instruments, chefs iq will become
+strictly greater than einsteins .
+
+print"yes"  if it is possible for chef to beat einstein , else print "no" (withhout quotes )
+you may print each charecter of the string in either uppercase or lowercase (for example , the strings yes )
+
+
+input format 
+1. the first  and only line of input  will contain a single integer X , the current iq of chef .
+
+
+output format 
+1. for each testcase , output in a single line "yes" or "no"
+2. you may print each charecter of the string of the string either uppercase 
+
+
+constraints 
+100≤X≤169
+
+
+subtasks 
+
+subtask #1 (100 points ) : original constraints 
+sample 1 :
+ input 
+ 165
+ output 
+ yes 
+
+input120
+output 
+no
+
+
+Explanations :
+ after learning a musical instrument , chef's  final iq  will be 120+7=127 <170 . chef cannot  beat einstain .
+

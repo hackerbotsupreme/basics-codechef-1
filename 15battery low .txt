@@ -1,0 +1,45 @@
+problem  statement 
+chef's phone shows a battery low notification if the batteryu level 15% or less .
+
+giiven that the battery level of chef's phone is x% , determine whether  it would show a battery low notification.
+
+
+input format
+
+1. first line will contain T , number of test case s, then the trest cases follow.
+2. each test casee contains a single  line of input  , an integer X . denoting  the battery level of the phone .
+
+output format 
+for each test case , output  in a single line  yes , if the battery level is 15% or below . otherwise , print ,no.
+
+
+you may print each charecter of yes  and no in uppercase or lowercase .
+
+constraints 
+1≤T≤100
+1≤X≤100
+
+subtasks 
+
+subtask #1 (100 ponts ) : original constraints 
+
+
+sample 1 :
+input 
+3
+15
+3
+65
+
+output 
+
+Yes
+Yes
+No
+
+
+Explanation: 
+test case  1: the battery level is 15 . thus , it would show a battery low notification .
+test case : the battery level is 3 ,m which is less than 15. thus, it would show a battery low competition .
+test case 3: the battery level is 65. which is greater than 15 v. thus, it would not show a battery low 
+notification .

@@ -1,0 +1,54 @@
+problem ststement 
+chef has opened a new airline . chef has 10 airplanes  where 
+each has a capaciy  of x passengers , on the first day itself  , y  people are willing  to book a seat in  any one of chef's airplanes .
+
+given that chef chrges  z rupes for each integer T, denoting the number of test case s .
+
+
+
+input format 
+1. the first line of input will contain a single integer T , denoting the number of test cases.
+2. each test case consists  of three space-seperated integers X,Y and Z -- the capacity of each airplanes ,
+ the number of peopke  willing to book a sear iinany one of chef's airplanes on the first day . and the cost of each 
+ seat respectively.
+
+
+
+ output format.
+ for each test case , output on a new line , the maximum amount chef can earn on the first day.
+
+
+constraints 
+1≤T≤1000
+1≤X,Y,Z≤100
+
+input 
+4
+2 15 10
+1 10 1
+5 60 100
+1 11 7
+
+
+output
+150
+10
+5000
+70
+
+
+
+
+Explanation :
+test case !: chef has 10 airplanes  and each airplanes  
+has a capacity of 2 passengers . thus , there are 20 seats availabvle in total.
+there are 15 people whowant to book a seat , since we have enough seats for everyone,all 15 people 
+can book theie seats and pay 10 ruppees each. the total money chef earns is 15.10=150
+
+
+test case 2 
+chef has 10 airplanes and each airplane has a capacity of 1 passenger . thus, thereare 10 seats 
+avilable in total. 
+there ae 10 people who want to book a seat . since we have enogh seats for everyone 
+,all 10 people can book their  seats and pay 1 rupee each.
+
