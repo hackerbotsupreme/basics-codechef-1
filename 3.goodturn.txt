@@ -1,0 +1,36 @@
+chef and chefina are playing with dice . in one turn , both of them roll their dice  at once . 
+they consider a turn to be good if the sum of the numbers on their dice is greater than 6.
+given that in a particular turn chef and cohefina got x and y  in their respective dice , find whether the turn was good . 
+
+
+input format 
+1. the first of input will contain a single integer T , denoting the number of test cases .
+2.Each test case contains two spac -seperated integers X and Y -thr numbers chef and shefina got on their respective dice .
+
+
+output format
+for each test case, output  on a new line ,yes if the turn was good and no otherwise . 
+
+each charecter of the output may be printed in either upppercase or lowercase .
+
+
+Constraints 
+1. 1<=T<=100
+@. 1<= x,Y<= 6
+
+sample 1:
+4         no
+1 4       yes 
+3 4       no
+2 6       yes
+
+Explanation:
+test case 1 :the sum of numbers n the dice is 1+4=5which is smaller than 
+6. Thus, the turn is not good.
+
+test case 2 : the sum of nmbers  on the dice is 3+4=7 which is grester than 6. thus , the sum is good . 
+
+test case3 : the sum of numbers  on the dice is 4+2 =6 which is equal to ^. thus the turn is not good . 
+
+
+test case 4: the sm of the number on the dic  is 2+6=8 whih is greater than 6 . thus , the turn is good .
